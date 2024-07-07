@@ -21,30 +21,6 @@
     text-align: center;
   }
   
-  /*header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
-    transition: color 0.3s;
-  }
-  
-  nav a:hover {
-    color: #ff6347;
-  }*/
-  
   .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -75,6 +51,7 @@
 
   .my_name{
     font-family: 'Merriweather', serif;
+    font-size: 4vw;
     margin-bottom: 0;
   }
 
@@ -82,18 +59,43 @@
     padding: 0;
     margin-top:0  ;
     font-family:'Merriweather', serif;
+    font-size: 2vw;
     letter-spacing: 0.5em;
   }
 
   brand{
     font-family: Impact, Haettenschweiler, 'Arial black', sans-serif;
-    font-size: 10vh;
+    font-size: 10vw;
   }
+  
+  @media (max-width: 600px) {
+  brand {
+    font-size: 8vw; /* Adjust the font size for smaller screens */
+    }
+  .my_name{
+    font-size:3vw ;
+  }
+  .my_tag{
+    font-size: 1.5vw;
+  }
+  .btn{
+    flex-direction: column;
+    
+  }
+
+  .btn button{
+    height: 20vw;
+    width: 20vw;
+    font-size: 4vw;
+  }
+  }
+  
   .btn{
     margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
   }
 
   .btn button {
