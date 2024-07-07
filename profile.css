@@ -136,6 +136,17 @@
     margin: 10px 0;
   }
   
+  #about{
+    margin:10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  #about h3{
+    font-family:  'Arial black', sans-serif;
+    color: #444;
+  }
   /*footer {
     background-color: #333;
     color: #fff;
