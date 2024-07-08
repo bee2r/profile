@@ -35,6 +35,11 @@
       flex-wrap: wrap;
     }
   }
+  /*.about_container .btn{ 
+    background-color: #0056b3;
+  }*/
+
+  
 
   #picture {
     grid-row: 1;
@@ -57,7 +62,7 @@
 
   .my_name{
     font-family: 'Merriweather', serif;
-    font-size: 4vw;
+    font-size: 3vw;
     margin-bottom: 0;
   }
 
@@ -65,27 +70,29 @@
     padding: 0;
     margin-top:0  ;
     font-family:'Merriweather', serif;
-    font-size: 2vw;
+    font-size: 1.5vw;
     letter-spacing: 0.5em;
   }
 
   brand{
     font-family: Impact, Haettenschweiler, 'Arial black', sans-serif;
-    font-size: 10vw;
+    font-size: 7vw;
   }
+
   
   @media (max-width: 600px) {
   brand {
     display: block;
-    font-size: 8vw; /* Adjust the font size for smaller screens */
+    font-size: 10vw; /* Adjust the font size for smaller screens */
     }
   .my_name{
-    font-size:3vw ;
+    font-size:4vw ;
   }
   .my_tag{
-    font-size: 1.5vw;
+    font-size: 2vw;
 
   }
+
   .btn{
     flex-direction: column;
     
